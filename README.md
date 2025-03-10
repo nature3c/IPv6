@@ -1,5 +1,5 @@
 <h1>Code I used to look into IPv6 addresses</h1>
-<h2>Goals: Find why IIDs repeat in IPv6 addresses and fix that</h2>
+<p>Goals: Find why IIDs repeat in IPv6 addresses and fix that<br></p>
 
 <h3>3/5:</h3>
 <p>I started this github repo <br>
