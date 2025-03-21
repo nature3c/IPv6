@@ -35,5 +35,5 @@
   like "A B DA SILVA MULTIMEDIA - ME, BR," so that the last    part is a country code. Count how many times each country <br>
   code shows up.<br>
   Why did geopandas remove their world map? Anyways heres the map I made. 
-  ![image](https://github.com/nature3c/IPv6/blob/main/updated_map.jpg?raw=true)
+  <img src="updated_map.png" alt="map-screenshot">
 </p>
