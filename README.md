@@ -1,9 +1,10 @@
-<h1>How to recreate my findings</h1>
+<h1>Recreate my findings</h1>
 
 <h3>Getting the data</h3>
 <p>
   IPv6 address were from: https://ipv6observatory.org/ <br>
   The rib files from: https://www.routeviews.org/routeviews/archive/
+  CYMRU: https://www.team-cymru.com/ip-asn-mapping
 </p>
 
 <h3>Initial data organization</h3>
@@ -15,12 +16,17 @@
 <h3>ASN List</h3>
 <p>
   Put the rib file, mrtparse.py, and lookup.py in the same directory. You'll also need to install py-radix.<br>
-  ./lookup.py -i &lt;rib&gt; -l &lt;file of ips&gt;
+  ./lookup.py -i &lt;rib&gt; -l &lt;file of ips&gt; <br>
+  The output from lookup should be IPv6 address, /32, ASN <br>
+  Get the last column of data and remove any duplicated to get unique ASNs and run it through CYMRU's whois. <br>
+  You should end up with a text file of ASN Names.
 </p>
 
 <h3>Heatmap</h3>
 <p>
-  
+  Run the IPs through Whois again but use bulk mode so that the output looks like<br>
+  ASN | IPv6 Address | Country, CountryCode <br>
+  With that list run it through count-asn-country.py and you should get a list of countries counts and ASN counts. <br>
 </p>
 
 <h3>NTP vs ZMap</h3>
