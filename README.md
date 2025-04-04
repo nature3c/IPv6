@@ -14,7 +14,8 @@
 
 <h3>ASN List</h3>
 <p>
-  
+  Put the rib file, mrtparse.py, and lookup.py in the same directory. You'll also need to install py-radix.<br>
+  ./lookup.py -i <rib> -l <file of ips>
 </p>
 
 <h3>Heatmap</h3>
