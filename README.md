@@ -1,6 +1,6 @@
 <h1>Why is my address not unique?</h1>
 
-<h3>(<b>Very</b>) Useful Links</h3>
+<h3>(<i>Very</i>) Useful Links</h3>
 <p>
   IPv6 address were from: https://ipv6observatory.org/ <br>
   The rib files from: https://www.routeviews.org/routeviews/archive/ <br>
