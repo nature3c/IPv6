@@ -1,4 +1,4 @@
-<h1>Recreate my findings</h1>
+<h1>Why is my address not unique?</h1>
 
 <h3>Getting the data</h3>
 <p>
@@ -27,6 +27,7 @@
   Run the IPs through Whois again but use bulk mode so that the output looks like<br>
   ASN | IPv6 Address | Country, CountryCode <br>
   With that list run it through count-asn-country.py and you should get a list of countries counts and ASN counts. <br>
+  With those two lists, run it through heatmap.py to get a nice looking heatmap.
 </p>
 
 <h3>NTP vs ZMap</h3>
